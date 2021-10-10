@@ -4,7 +4,7 @@
 */
   var stringsA1 = 'Otorrinolaringología';
   
-  console.log(stringsA1.toUpperCase());
+//  console.log(stringsA1.toUpperCase());
 
 /*
   Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los primeros 5 caracteres 
@@ -13,7 +13,7 @@
   var stringsB1 = 'Electrocardiograma';
   var outcomeB = stringsB1.substring(0,4);
   
-  console.log(outcomeB);
+//  console.log(outcomeB);
 
 /*
   Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con los últimos 3 caracteres 
@@ -22,7 +22,7 @@
   var stringsC1 = 'Paralelepípedo';
   var outcomeC = stringsC1.substring(stringsC1.length - 3, stringsC1.length);
 
-  console.log(outcomeC);
+//  console.log(outcomeC);
 
 /*
   Crear una variable de tipo string con al menos 10 caracteres y generar un nuevo string con la primera letra en 
@@ -32,7 +32,7 @@
   var stringsD1 = 'esternocleidomastoideo';
   var outcomeD = stringsD1.substring(0,1).toUpperCase() + stringsD1.substring(1, stringsD1.length).toLowerCase();
 
-  console.log(outcomeD);
+//  console.log(outcomeD);
 
 /*
   Crear una variable de tipo string con al menos 10 caracteres y algún espacio en blanco. Encontrar la posición del 
@@ -41,7 +41,7 @@
   var stringsE1 = 'Become a Software Developer';
   var outcomeE = stringsE1.indexOf(' ');
 
-  console.log(outcomeE);
+//  console.log(outcomeE);
 
 /*
   Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
@@ -51,23 +51,10 @@
 */
   var stringsF1 = 'caleidoscopio extravagante';
   var space = stringsF1.indexOf(' ');
-  var stringsF2 = stringsF1.substring(0, space).toLowerCase();
-  var stringsF3 = stringsF1.substring(space + 1, stringsF1.length).toLowerCase();
 
-  var stringsF4 = stringsF2.substring(0,1).toUpperCase() + stringsF2.substring(1, stringsF2.length);
-  var stringsF5 = stringsF3.substring(0,1).toUpperCase() + stringsF3.substring(1, stringsF3.length);
-
-  outcomeF = stringsF4 + ' ' + stringsF5;
-
-  console.log(outcomeF);
-
-
-  var stringsPrueba = 'caleidoscopio extravagante';
-  var space2 = stringsPrueba.indexOf(' ');
-
-  var stringsPrueba2 =  stringsPrueba.substring(0,1).toUpperCase() + 
-                        stringsPrueba.substring(1, space2 + 1).toLowerCase() + 
-                        stringsPrueba.substring(space2 +1, space2 + 2).toUpperCase() + 
-                        stringsPrueba.substring(space2 + 2, stringsPrueba.length).toLowerCase();
+  var outcomeF =  stringsF1.substring(0,1).toUpperCase() + 
+                  stringsF1.substring(1, space + 1).toLowerCase() + 
+                  stringsF1.substring(space +1, space + 2).toUpperCase() + 
+                  stringsF1.substring(space + 2, stringsF1.length).toLowerCase();
   
-  console.log(stringsPrueba2);
+//  console.log(outcomeF);
